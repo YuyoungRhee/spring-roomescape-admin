@@ -20,10 +20,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.jdbc.core.JdbcTemplate;
-import roomescape.controller.ReservationController;
-import roomescape.controller.dto.response.ReservationResponse;
-import roomescape.repository.ReservationRepository;
-import roomescape.repository.TimeRepository;
+import roomescape.presentation.controller.ReservationController;
+import roomescape.presentation.dto.response.ReservationResponse;
+import roomescape.domain.repository.ReservationRepository;
+import roomescape.domain.repository.TimeRepository;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class MissionStepTest {

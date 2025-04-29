@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import roomescape.domain.Reservation;
-import roomescape.repository.ReservationRepository;
+import roomescape.domain.repository.ReservationRepository;
 
 public class FakeReservationRepository implements ReservationRepository {
     private final List<Reservation> reservations = new ArrayList<>();

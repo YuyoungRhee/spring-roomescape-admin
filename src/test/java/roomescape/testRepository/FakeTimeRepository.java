@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import roomescape.domain.ReservationTime;
-import roomescape.repository.TimeRepository;
+import roomescape.domain.repository.TimeRepository;
 
 public class FakeTimeRepository implements TimeRepository {
 
